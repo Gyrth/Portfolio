@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="stylesheets/materialize.min.css" media="screen,projection" />
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>Gyrth McMulin</title>
+	<header></header>
+</head>
+
+<body>
+	<header></header>
+	<div id="navigator"></div>
+	<div class="pagecontent">
+		<div>
+			<h3>Blacktrace</h3>
+			<p>This is my own project made with Godot available on <a href="https://gyrthmcmulin.itch.io/blacktrace">Itch.io</a>.</p>
+			<p>Blacktrace is a third person shooter set in a film noir, low poly world. <br> You play as John Black, a private investigator turned rogue. He's set out to kill every criminal that crosses his path. <br> You work from case to case unlocking different types of weapons.</p>
+		</div>
+		<image src="images/blacktrace_banner.png" alt="" width="100%"></image>
+		<hr>
+		<table>
+			<tr>
+				<td>
+					<h3>Character Control</h3>
+					<p>I tried to find a balance between realism and responsiveness for the character control. The character has momentum in it's movement which makes animation transitions smooth and collisions with the environment realistic.</p>
+					<p>For small animation details I added Inverse Kinematics on the hands for aiming, head and torso for looking, and feet for ground collision.</p>
+				</td>
+				<td class="centeredcel">
+					<div class="effect2">
+						<video autoplay loop>
+							<source src="videos/blacktrace_character_control.webm">
+						</video>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="centeredcel">
+					<div class="effect2">
+						<video autoplay loop>
+							<source src="videos/blacktrace_physics.webm">
+						</video>
+					</div>
+				</td>
+				<td>
+					<h3>Focus on physics</h3>
+					<p>A big part of the fun in Blacktrace is making a mess and not having to clean it up. That's why I added breakable objects like glass windows and groceries. Each object can have physical properties as well. For example concrete makes debris fall off when shot, and metal creates sparks when hit by a bullet. </p>
+					<p>Characters turn into a ragdoll when they are killed, and a dismemberment system sends limbs flying when they are shot.</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Atmosphere</h3>
+					<p>The theme of Blacktrace is film noir. So the color palette is minimal with exception of blood and guts. So it is more reliant on lighting effects and shaders to make a good looking level. </p>
+					<p>To make the game suspenseful at times and relaxing in others it uses jazz music in the background. Similar to old black and white movies from the 40s and 50s.</p>
+				</td>
+				<td class="centeredcel">
+					<div class="effect2">
+						<video autoplay loop>
+							<source src="videos/blacktrace_atmosphere.webm">
+						</video>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+<footer></footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="javascripts/add_common_items.js"></script>
+<script type="text/javascript" src="javascripts/materialize.min.js"></script>
+
+</html>

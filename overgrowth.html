@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="stylesheets/materialize.min.css" media="screen,projection" />
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>Gyrth McMulin</title>
+	<header></header>
+</head>
+
+<body>
+	<header></header>
+	<div id="navigator"></div>
+	<div class="pagecontent">
+		<h3>Overgrowth Mods</h3>
+		<p>These are some of the mods that I made for Overgrowth. The game uses The Phoenix Engine, a custom engine made by <a href="http://www.wolfire.com/overgrowth">Wolfire Games</a>.</p>
+		<p>The mods are written in AngelScript and <a href="https://github.com/Gyrth/OGMods">freely available</a> for anyone to use or modify under the GPL License.</p>
+		<hr>
+		<table>
+			<tr>
+				<td>
+					<h3>Drika Hotspot</h3>
+					<p>The biggest mod is Drika Hotspot (DHS). It is a visual scripting tool that allows players to setup interactive elements in their level without scripting knowledge.</p>
+					<p>Features include a complete dialogue system, a UI system that supports text and images, a blender-like timeline animation system and much more. The project has been setup with modularity in mind. This allows new features to be implemented without breaking compatibility.</p>
+					<p><a href="https://github.com/Gyrth/OGMods/tree/drika_hotspot">Source</a> / <a href="https://steamcommunity.com/workshop/filedetails/?id=1710705196"> Workshop Page</a></p>
+				</td>
+				<td class="centeredcel">
+					<div class="effect2">
+						<video autoplay loop>
+							<source src="videos/dhs_showcase.webm">
+						</video>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="centeredcel">
+					<div class="effect2">
+						<video autoplay loop>
+							<source src="videos/Receiver.webm">
+						</video>
+					</div>
+				</td>
+				<td>
+					<h3>Overceiver</h3>
+					<p>This mod was made for the Map Jam of July 2021.</p>
+					<p>I attempted to recreate a different game made by Wolfire called Receiver in the Overgrowth Engine. It includes a custom first person character controller, rigged gun model with bullet system and flying enemy drones.</p>
+					<p><a href="https://github.com/Gyrth/OGMods/tree/receiver">Source</a> / <a href="https://steamcommunity.com/workshop/filedetails/?id=2550937721">Workshop Page</a></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Arctic 2D</h3>
+					<p>An entry made for the October 2021 Map Jam. With 2D assets made by <a href="https://www.kenney.nl/">Kenney</a>.</p>
+					<p>In this game mode you control a little character that can shoot snow balls at different enemy types. The player can collect different items that are displayed at the end of the level.</p>
+					<p><a href="https://github.com/Gyrth/OGMods/tree/arctic_2d">Source</a> / <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2625728847"> Workshop Page</a></p>
+				</td>
+				<td class="centeredcel">
+					<div class="effect2">
+						<video autoplay loop>
+							<source src="videos/Arctic2D.webm">
+						</video>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="centeredcel">
+					<div class="effect2">
+						<video autoplay loop>
+							<source src="videos/bow_and_arrow.mp4">
+						</video>
+					</div>
+				</td>
+				<td>
+					<h3>Bow and Arrow</h3>
+					<p>One of my most popular mods. The bow and arrow with custom models, sounds and control script.</p>
+					<p>Different arrow types have different effects like a stun, poison and exploding arrow. Complete with quiver which holds up to six arrows.</p>
+					<p><a href="https://github.com/Gyrth/OGMods/tree/bow_and_arrow">Source</a> / <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=855413136">Workshop Page</a></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Multiplayer</h3>
+					<p>A highly requested feature by the community was multiplayer. While the engine did not support networking at first, I managed to solve this by using the UI framework Awesomium to send and receive data via HTTP POST requests. </p>
+					<p>The framework was later removed from the engine however the developers were kind enough to add TCP socket support. The client was made in AngelScript while the server was written in C++. This was a collaboration with Surak.</p>
+					<p><a href="https://github.com/ogmp">Project Organisation</a></p>
+				</td>
+				<td class="centeredcel">
+					<div class="effect2">
+						<video autoplay loop>
+							<source src="videos/multiplayer.mp4">
+						</video>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+<footer></footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="javascripts/add_common_items.js"></script>
+<script type="text/javascript" src="javascripts/materialize.min.js"></script>
+
+</html>
