@@ -9,7 +9,7 @@ $( document ).ready(function(){
 function addHeader(){
 	document.querySelector ('header').innerHTML =
 	'<link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>'+
-	'<h1><img src="images/avatar.png" alt="" width="45"></image> Gyrth McMulin</h1>'+
+	'<h1><img src="images/avatar.png" alt="" width="45"></image> Gyrth McMulin<br><small>Hendrik Wiersma</small></h1>'+
 	'<h3>Programmer</h3>'+
 	'<hr></hr>';
 }
