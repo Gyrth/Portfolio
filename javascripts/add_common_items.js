@@ -9,9 +9,19 @@ $( document ).ready(function(){
 function addHeader(){
 	document.querySelector ('header').innerHTML =
 	'<link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>'+
-	'<h1><img src="images/avatar.png" alt="" width="45"></image> Gyrth McMulin</h1>'+
-	'<h3>Programmer</h3>'+
-	'<hr></hr>';
+	'<table style="width:100%">'+
+		'<tr>'+
+			'<th style="width:120px">'+
+				'<a href="https://gyrthmcmulin.me">'+
+					'<img src="images/avatar.png" alt="Avatar"/>'+
+				'</a>'+
+			'</th>'+
+			'<th>'+
+				'<h1> Gyrth McMulin<br><small>Hendrik Wiersma</small></h1>'+
+				'<h3>Programmer</h3>'+
+			'</th>'+
+		'</tr>'+
+	'</table>'
 }
 
 function addNav() {
@@ -46,9 +56,7 @@ function addNav() {
 }
 
 function addFooter(){
-	document.querySelector ('footer').innerHTML =
-	'<p><small>Hosted on GitHub Pages<br>'+
-	'Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>';
+	
 }
 
 var myvid = document.getElementById('playlist');
